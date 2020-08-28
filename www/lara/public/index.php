@@ -3,6 +3,7 @@
 // 调用自动加载文件，添加自动加载文件函数
 
 use Illuminate\Database\Capsule\Manager;
+use Illuminate\Support\Fluent;
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -15,6 +16,10 @@ with(new Illuminate\Routing\RoutingServiceProvider($app))->register();
 $manager = new Manager();
 $manager->addConnection(require '../config/database.php');
 $manager->bootEloquent();
+
+// 视图组件相关，下面的代码没写全，待补充
+$app->instance('config', new Fluent);
+//$app['config']['view.compiled'] = "";
 
 // 加载路由
 require __DIR__ . '/../app/Http/routes.php';
