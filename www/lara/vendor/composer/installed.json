@@ -684,6 +684,62 @@
         "homepage": "https://laravel.com"
     },
     {
+        "name": "illuminate/view",
+        "version": "v7.26.1",
+        "version_normalized": "7.26.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/illuminate/view.git",
+            "reference": "cf2d24e6e23e5c9aed55eb41244d948fdfc82d42"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/illuminate/view/zipball/cf2d24e6e23e5c9aed55eb41244d948fdfc82d42",
+            "reference": "cf2d24e6e23e5c9aed55eb41244d948fdfc82d42",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-json": "*",
+            "illuminate/container": "^7.0",
+            "illuminate/contracts": "^7.0",
+            "illuminate/events": "^7.0",
+            "illuminate/filesystem": "^7.0",
+            "illuminate/support": "^7.0",
+            "php": "^7.2.5"
+        },
+        "time": "2020-08-20T14:08:22+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "7.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Illuminate\\View\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            }
+        ],
+        "description": "The Illuminate View package.",
+        "homepage": "https://laravel.com"
+    },
+    {
         "name": "nesbot/carbon",
         "version": "2.39.0",
         "version_normalized": "2.39.0.0",
