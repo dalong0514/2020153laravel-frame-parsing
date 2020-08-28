@@ -1,0 +1,6 @@
+{
+    "name": "dalong/model-test",
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
